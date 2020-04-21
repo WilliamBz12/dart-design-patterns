@@ -1,7 +1,7 @@
-import 'interfaces/observable_interface.dart';
+import 'interfaces/subject_interface.dart';
 import 'interfaces/observer_interface.dart';
 
-class CoffeeMakerSubject implements Observable {
+class CoffeeMakerSubject implements Subject {
   
   List<Observer> observerCollection = [];
 
